@@ -1,3 +1,3 @@
 #!/bin/bash
-as -msyntax=intel -mnaked-reg test.asm -o test.o
-ld -s -o test test.o
+as -msyntax=intel -mnaked-reg server.asm -o server.o
+ld -s -o server server.o
